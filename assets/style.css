@@ -1,0 +1,74 @@
+/*variables*/
+:root{
+	--color1: #22577A;
+}
+
+
+body{
+	background-image: url(images/img.png);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+/*menu horizontal*/
+
+
+
+
+/*menu vertical*/
+.menu_vertical{
+	background-color: rgba(46, 139, 142, .2);
+	height: 100vh;
+}
+.menu_icon{
+	color:  white;
+	font-size: 1.5em;
+	padding:  10px;
+	border-bottom: 2px solid white;
+	
+}
+.menu_vertical .hover_icon:hover{
+	background-color: var(--color1);
+	cursor:  pointer;
+	border-radius: 5px;
+}
+.margen_icon{
+	margin-top: 5%;
+}
+
+
+
+/*logo*/
+.imgLogo{
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30%;
+}
+
+
+/*Info*/
+.colorblanco{
+	color:  white;
+}
+.borderTitulo{
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

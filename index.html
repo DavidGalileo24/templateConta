@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Romero Consultores</title>
+	<!--css-->
+	<link rel="stylesheet" href="assets/style.css">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!--fullpage-->
+	<link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.min.css">
+	<!--aos-->
+	<link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+	<!--fontawesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	
+</head>
+<body>
+	
+	<div class="container-fluid menu_horizontal">
+		<div class="row">
+			<div class="col-12">
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-1 menu_vertical text-center">
+				<br><br><br><br>
+				<p class="hover_icon ">
+					<i class="fas fa-home menu_icon"></i>
+				</p>
+				<p class="hover_icon">
+					<i class="fas fa-calculator menu_icon"></i>
+				</p>
+				<p class="hover_icon">
+					<i class="fas fa-address-card menu_icon"></i>
+				</p>
+				<p class="hover_icon">
+					<i class="fas fa-user-circle menu_icon"></i>
+				</p>
+				<p class="hover_icon">
+					<i class="fas fa-map-marker-alt menu_icon"></i>
+				</p>
+				<p class="hover_icon">
+					<i class="fas fa-info-circle menu_icon"></i>
+				</p>
+			</div>
+
+			<div class="col-5">
+				<img src="assets/images/logo.png" alt="" class="imgLogo">
+			</div>
+
+			
+
+			<div class="col-5 infoConta">
+				<div id="fullpage">
+					<div class="section" id="firstPage">
+						<h1 class="colorblanco borderTitulo">Lorem</h1>
+						<p class="colorblanco">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis, obcaecati. Suscipit deserunt iusto, odio cumque, recusandae, placeat aperiam quidem consectetur modi maxime totam porro earum dolorum omnis, reprehenderit qui?
+						</p>
+					</div>
+					<div class="section" id="firstPage">
+						<h1 class="colorblanco borderTitulo">Lorem 2</h1>
+						<p class="colorblanco">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis omnis, obcaecati. Suscipit deserunt iusto, odio cumque, recusandae, placeat aperiam quidem consectetur modi maxime totam porro earum dolorum omnis, reprehenderit qui?
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/fullpage.js/dist/fullpage.min.js/"></script>
+	<script src="node_modules/aos/dist/aos.js"></script>
+
+
+
+	<script>
+		new fullpage('#fullpage', {
+			//options here
+			autoScrolling:true,
+			scrollHorizontally: true,
+			slidesNavigation: true,
+			anchors:['firstPage', 'secondPage'],
+			slidesNavPosition: 'right',
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['firstSlide', 'secondSlide'],
+		});
+
+		 AOS.init();
+	</script>
+
+</body>
+</html>
